@@ -1,5 +1,5 @@
-#说明
-#####主要目的和作用：翻译variables中的less变量以供快速配置，当然也可以直接前往bsp网站定制
+# 说明
+##### 主要目的和作用：翻译variables中的less变量以供快速配置，当然也可以直接前往bsp网站定制
 * 此文档是本人在学习和使用过程中总结的，可用于速查，实际使用和遇到问题时推荐大家直接到[bsp官方](http://getbootstrap.com/)或[bsp中文站](http://v3.bootcss.com/)学习使用
 * 此文档是针对bsp3.3.7整理的
 * 请至custom bootstrap下的custom-variables配置，此文件已经过翻译整理，能力有限，比较粗鄙
@@ -8,7 +8,7 @@
 * bootstrap-3.3.7是官方文件，原则上不建议改动
 * custom bootstrap是定制bsp的文件目录，css是主要活动目录，毕竟fonts和js我们是不会轻易动的，那也不是我们这里研究的
 * custom-bootstrap.less是用来生成定制的bsp的less文件；</br>custom-variables.less是配置变量的文件，通过此可以以最简单和最快捷的方式定制属于你项目的bsp；</br>custom-other.less是用来添加和配置除正常bsp配置以外的
-#bsp常用class
+# bsp常用class
 * text-center:文本居中对齐，类似的还有text-left | text-right | text-justify
 * text-nowrap:文本不换行
 * center-block:使内容水平居中
@@ -29,7 +29,7 @@
 * show、hidden:显示或隐藏内容
 * btn-group：可快速去除几个按钮之间因代码格式化导致的间距问题
 * btn-group-vertical:使按钮组垂直排列
-####一些常用的类集合
+#### 一些常用的类集合
 - success、warning、error、danger、info等，这些类都是改变颜色、背景色等基本样式的，在很多元素上都有用到
     - 表格：直接在tr、td上使用active、success、warning、danger、info改变基本样式
     - 表单：直接在label、input等父元素上使用has-success、has-warning、has-error改变基本样式
