@@ -1,4 +1,5 @@
 //设置bsp的变量
+//
 
 
 //////bsp 使用了两种颜色模式：灰度颜色和语义颜色。灰度颜色用于快速获取常用的黑色色调；语义颜色包含了各种赋予语义的颜色值
@@ -11,7 +12,7 @@
 @gray-light:             lighten(@gray-base, 46.7%); // #777
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-//////////////几种语义颜色
+//////////////语义颜色
 @brand-primary:         darken(#428bca, 6.5%); // #337ab7
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
@@ -67,10 +68,9 @@
 @headings-color:          inherit;
 
 
-//icon字体 == Iconography
-//## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
+//icon字体
 
-//** Load fonts from this directory.
+//** 文件位置
 @icon-font-path:          "../fonts/";
 //** File name for all font files.
 @icon-font-name:          "glyphicons-halflings-regular";
@@ -78,9 +78,8 @@
 @icon-font-svg-id:        "glyphicons_halflingsregular";
 
 
-//== Components
-//
-//## 公共的padding、border-radius
+//组件
+/////////组件贯穿整个 Bootstrap 框架，他们通过一些变量来设置默认值。下面列出的是常用的几个
 
 @padding-base-vertical:     6px;
 @padding-base-horizontal:   12px;
@@ -253,12 +252,7 @@
 @dropdown-caret-color:           #000;
 
 
-//-- Z-index master list
-//
-// Warning: Avoid customizing these values. They're used for a bird's eye view
-// of components dependent on the z-axis and are designed to all work together.
-//
-// Note: These variables are not generated into the Customizer.
+//-- Z-index 值
 
 @zindex-navbar:            1000;
 @zindex-dropdown:          1000;
@@ -269,7 +263,7 @@
 @zindex-modal:             1050;
 
 
-//== Media queries breakpoints
+//== 媒体查询的断点设置
 //
 //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
 
@@ -308,7 +302,7 @@
 @screen-md-max:              (@screen-lg-min - 1);
 
 
-//== Grid system
+//== 栅格系统
 //
 //## Define your custom responsive grid.
 
@@ -323,7 +317,7 @@
 @grid-float-breakpoint-max: (@grid-float-breakpoint - 1);
 
 
-//== Container sizes
+//== Container 尺寸
 //
 //## Define the maximum width of `.container` for different screen sizes.
 
@@ -343,7 +337,7 @@
 @container-lg:                 @container-large-desktop;
 
 
-//== Navbar
+//== Navbar导航栏
 //
 //##
 
@@ -405,7 +399,7 @@
 @navbar-inverse-toggle-border-color:        #333;
 
 
-//== Navs
+//== Navs导航
 //
 //##
 
@@ -434,7 +428,7 @@
 @nav-pills-active-link-hover-color:         @component-active-color;
 
 
-//== Pagination
+//== Pagination分页器
 //
 //##
 
@@ -483,7 +477,7 @@
 @jumbotron-heading-font-size:    ceil((@font-size-base * 4.5));
 
 
-//== Form states and alerts
+//== 表单状态和alert提醒状态
 //
 //## Define colors for form feedback states and, by default, alerts.
 
@@ -504,7 +498,7 @@
 @state-danger-border:            darken(spin(@state-danger-bg, -10), 5%);
 
 
-//== Tooltips
+//== tooltip工具提示
 //
 //##
 
@@ -522,7 +516,7 @@
 @tooltip-arrow-color:         @tooltip-bg;
 
 
-//== Popovers
+//== Popovers弹出框
 //
 //##
 
@@ -551,7 +545,7 @@
 @popover-arrow-outer-fallback-color:  darken(@popover-fallback-border-color, 20%);
 
 
-//== Labels
+//== Labels标签
 //
 //##
 
@@ -574,7 +568,7 @@
 @label-link-hover-color:      #fff;
 
 
-//== Modals
+//== Modals模态框
 //
 //##
 
@@ -607,7 +601,7 @@
 @modal-sm:                    300px;
 
 
-//== Alerts
+//== Alerts警告信息
 //
 //## Define alert colors, border radius, and padding.
 
@@ -632,7 +626,7 @@
 @alert-danger-border:         @state-danger-border;
 
 
-//== Progress bars
+//== Progress bars进度条
 //
 //##
 
@@ -655,7 +649,7 @@
 @progress-bar-info-bg:        @brand-info;
 
 
-//== List group
+//== List group列表组
 //
 //##
 
@@ -689,7 +683,7 @@
 @list-group-link-heading-color: #333;
 
 
-//== Panels
+//== Panels面板
 //
 //##
 
@@ -728,7 +722,7 @@
 @panel-danger-heading-bg:     @state-danger-bg;
 
 
-//== Thumbnails
+//== Thumbnails缩略图
 //
 //##
 
@@ -747,7 +741,7 @@
 @thumbnail-caption-padding:   9px;
 
 
-//== Wells
+//== Wells凹陷效果
 //
 //##
 
@@ -755,7 +749,7 @@
 @well-border:                 darken(@well-bg, 7%);
 
 
-//== Badges
+//== Badges徽章
 //
 //##
 
@@ -774,7 +768,7 @@
 @badge-border-radius:         10px;
 
 
-//== Breadcrumbs
+//== Breadcrumbs路径导航
 //
 //##
 
@@ -790,7 +784,7 @@
 @breadcrumb-separator:          "/";
 
 
-//== Carousel
+//== Carousel轮播
 //
 //##
 

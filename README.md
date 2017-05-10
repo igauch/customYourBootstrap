@@ -29,6 +29,7 @@
 * show、hidden:显示或隐藏内容
 * btn-group：可快速去除几个按钮之间因代码格式化导致的间距问题
 * btn-group-vertical:使按钮组垂直排列
+* well:使内容有凹陷显示或插图效果
 #### 一些常用的类集合
 - success、warning、error、danger、info等，这些类都是改变颜色、背景色等基本样式的，在很多元素上都有用到
     - 表格：直接在tr、td上使用active、success、warning、danger、info改变基本样式
