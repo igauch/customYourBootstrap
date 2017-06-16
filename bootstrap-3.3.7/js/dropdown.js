@@ -34,7 +34,8 @@
     return $parent && $parent.length ? $parent : $this.parent()
   }
 
-  function clearMenus(e) {
+  function clearMenus(e) {`
+  `
     if (e && e.which === 3) return
     $(backdrop).remove()
     $(toggle).each(function () {
